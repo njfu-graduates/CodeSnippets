@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "mesh_root",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

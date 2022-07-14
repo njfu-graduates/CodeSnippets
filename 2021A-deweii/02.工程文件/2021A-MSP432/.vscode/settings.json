@@ -1,0 +1,32 @@
+{
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "files.associations": {
+        "main.h": "c",
+        "myadc.h": "c",
+        "mytask.h": "c",
+        "myuart.h": "c",
+        "ti_drivers_config.h": "c",
+        "myft.h": "c",
+        "unistd.h": "c",
+        "stddef.h": "c",
+        "limits": "c",
+        "type_traits": "c"
+    }
+}
