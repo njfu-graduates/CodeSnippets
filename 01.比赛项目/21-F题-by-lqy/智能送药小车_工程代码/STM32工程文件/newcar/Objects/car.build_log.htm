@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: QinYi Lin, Demoness, LIC=58574-FIRJH-LP0ZV-PJQLK-GR97V-3YX1P
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\NJFU_edu\Class\GraduationProject\stm32\newcar\car.uvprojx
+Project File Date:  05/08/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling delay.c...
+SYSTEM\delay\delay.c(230): warning:  #177-D: variable "us_" was declared but never referenced
+        uint32_t us_ = ms_ / 1000U;                                                             //us
+SYSTEM\delay\delay.c(47): warning:  #550-D: variable "fac_ms" was set but never used
+  static u16 fac_ms=0;                                                  //ms延时倍乘数,在ucos下,代表每个节拍的ms数
+SYSTEM\delay\delay.c: 2 warnings, 0 errors
+compiling sys.c...
+compiling usart.c...
+compiling USART2.c...
+compiling USART3.c...
+compiling tracking.c...
+compiling l298n.c...
+compiling MHsenser.c...
+compiling LED.c...
+linking...
+Program Size: Code=6080 RO-data=336 RW-data=84 ZI-data=2308  
+".\Objects\car.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\NJFU_edu\Class\GraduationProject\stm32\newcar\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
