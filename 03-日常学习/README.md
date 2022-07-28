@@ -7,7 +7,7 @@
 ## 文档结构：
 
 .
-├─README.md
+<pre><code>├─README.md
 ├─openMV
 |   ├─10分钟快速上手.docx
 |   ├─OpenMV PLus连接不上解决方法.pdf
@@ -65,3 +65,4 @@
 |  		...
 |   ├─edge impulse训练
 |   |       └使用OpenMV Cam H7 Plus收集图像数据.pdf
+</code></pre>
